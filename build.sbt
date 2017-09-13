@@ -5,7 +5,7 @@ parallelExecution in Test := false
 ivyScala := ivyScala.value map { _.copy(overrideScalaVersion = true) }
 
 libraryDependencies ++= Seq(
-  "org.apache.predictionio" %% "apache-predictionio-core" % "0.11.0" % "provided",
+  "org.apache.predictionio" %% "apache-predictionio-core" % "0.12.0-SNAPSHOT" % "provided",
   "io.prediction"    %% "core"          % "0.9.6",
   "org.apache.spark" %% "spark-core"    % "2.0.0",
   "org.apache.spark" %% "spark-mllib"   % "2.0.0",
